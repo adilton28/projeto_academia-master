@@ -1,0 +1,75 @@
+.imgTraining {
+  width: 100%;
+}
+
+.herder .herderTraining {
+  display: block;
+  font-size: 4rem;
+  top: 3rem;
+}
+
+.blogPost {
+  padding-left: 2rem;
+}
+
+.blogPost-pg {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: var(--color-p);
+  padding: 2rem 0 2rem;
+  text-align: justify;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 1.6rem 3.2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: .4rem .2rem;
+  border-radius: 2rem;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: var(--color-bt);
+  padding-bottom: 2rem;
+}
+
+.button a {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #ddd;
+  transform: scale(1.1);
+}
+
+.button a:hover {
+  color: black;
+}
+
+/* Media query for 768px screens */
+@media (max-width: 768px) {
+  .herder .herderTraining {   
+    font-size: 2rem;
+    top: 1rem;
+  }
+}
+
+
+/* Media query for 375px screens */
+@media (max-width: 375px) {
+  .header .herderTraining {
+    font-size: 1.5rem;
+    top: 1rem;
+    line-height: 4rem;
+  }
+  .imgTraining {
+    height: auto;
+  }
+}
